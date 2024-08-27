@@ -27,13 +27,19 @@ h1 {
     margin: 10px 0;
 }
 
-.contact a {
-    color: #1e90ff;
-    text-decoration: none;
+/*Link colors*/
+a {
+    color: #9eedff;
 }
 
-.contact a:hover {
-    text-decoration: underline;
+/* Link hover state */
+a:hover {
+    color: #9ea3ff;
+}
+
+/* Link active state */
+a:active {
+    color: #ff9eff;
 }
 
 main {
@@ -53,18 +59,4 @@ footer {
     text-align: center;
     padding: 10px;
     background: #333;
-}
-/*Link colors*/
-a {
-    color: #9eedff;
-}
-
-/* Link hover state */
-a:hover {
-    color: #9ea3ff;
-}
-
-/* Link active state */
-a:active {
-    color: #ff9eff;
 }
