@@ -54,3 +54,17 @@ footer {
     padding: 10px;
     background: #333;
 }
+/*Link colors*/
+a {
+    color: #9eedff;
+}
+
+/* Link hover state */
+a:hover {
+    color: #9ea3ff;
+}
+
+/* Link active state */
+a:active {
+    color: #ff9eff;
+}
