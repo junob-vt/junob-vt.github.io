@@ -128,14 +128,35 @@ header nav a:hover {
     color: #dcdcdc;
 }
 
+.news-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.news-date {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.news-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #dcdcdc;
+}
+
 .news-section .news-item strong {
     font-weight: 700;
 }
 
-/* Footer Icons */
-.footer-icons {
+/* Footer */
+.footer{
     text-align: center;
-    margin-top: 20px;
+}
+
+.footer-icons {
+    margin-top: 15px;
 }
 
 .footer-divider {
