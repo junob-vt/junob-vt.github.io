@@ -60,7 +60,7 @@ header nav a:hover {
 
 .text-section {
     flex: 2;
-    max-width: 80%;
+    max-width: 70%;
 }
 
 .text-section h1 {
@@ -80,19 +80,19 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 75px;
     position: relative;
 }
 
 .profile-section img {
     width: 100%;
-    max-width: 180px;
+    max-width: 220px;
     border-radius: 10px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .profile-section .info {
-    margin-top: 50px;
+    margin-top: 40px;
     font-size: 15px;
     color: #e0e0e0;
     text-align: center;
@@ -137,7 +137,7 @@ header nav a:hover {
 }
 
 .news-section {
-    max-width: 80%;
+    max-width: 70%;
     margin-top: 30px;
 }
 
