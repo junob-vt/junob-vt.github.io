@@ -129,6 +129,7 @@ header nav a:hover {
     
     .news-section {
         margin-top: 15px;
+        max-width: 100%;
     }
     .content {
         margin-top: 5px;
