@@ -118,20 +118,19 @@ header nav a:hover {
 
     .profile-section {
         order: -1;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
     .profile-section .info {
         text-align: center;
         padding-left: 0;
     }
-
-    .text-section {
-        max-width: 100%;
+    
+    .news-section {
+        margin-top: 15px;
     }
 }
 
-/* News Section */
 .news-section {
     max-width: 80%;
     margin-top: 30px;
