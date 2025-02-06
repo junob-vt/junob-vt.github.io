@@ -12,6 +12,7 @@ body {
 
 a {
     color: #87fae7;
+    text-decoration: none;
 }
 
 a:visited {
@@ -73,12 +74,14 @@ header nav a:hover {
     color: #dcdcdc;
 }
 
+/* Align profile picture with title text and ensure left-aligned info */
 .profile-section {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: -5px;
+    position: relative;
 }
 
 .profile-section img {
@@ -93,6 +96,7 @@ header nav a:hover {
     font-size: 16px;
     color: #e0e0e0;
     text-align: left;
+    width: 100%;
 }
 
 .profile-section .info p {
@@ -102,9 +106,34 @@ header nav a:hover {
 }
 
 .profile-section .info p i {
-    margin-right: 5px;
+    margin-right: 8px;
 }
 
+/* Ensure Profile Section Moves Under h1 on Mobile */
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-section {
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .profile-section .info {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .text-section {
+        max-width: 100%;
+    }
+}
+
+/* News Section */
 .news-section {
     max-width: 80%;
     margin-top: 30px;
@@ -127,22 +156,17 @@ header nav a:hover {
     font-weight: 700;
 }
 
-.footer {
-    text-align: center;
-}
-
+/* Center Footer Icons and Footer Text */
 .footer-icons {
-    margin-top: 15px;
-}
-
-.footer-divider {
-    border-bottom: 1px solid #3a3a3a;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
 }
 
 .footer-icons a {
     color: #ffffff;
     font-size: 40px;
-    margin: 15px;
     text-decoration: none;
 }
 
@@ -150,18 +174,14 @@ header nav a:hover {
     color: #b0c4de;
 }
 
-@media (max-width: 768px) {
-    .content {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
 
-    .profile-section {
-        text-align: center;
-        width: 100%;
-    }
-
-    .text-section {
-        max-width: 100%;
-    }
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #3a3a3a;
+    margin-top: 40px;
 }
