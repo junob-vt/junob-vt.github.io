@@ -1,37 +1,40 @@
 @charset "UTF-8";
 
 /* Import Roboto Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #2e2e2e;
+    background-color: #1c1c1c;
     color: #ffffff;
     margin: 0;
     padding: 0;
 }
 
+/* Container for Layout */
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 20px;
 }
 
-/* Header Styles */
+/* Header Styling */
 header {
     background-color: #1c1c1c;
     padding: 15px 0;
-    text-align: center;
+    text-align: right;
+    border-bottom: 1px solid #3a3a3a;
 }
 
 header nav {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 20px;
+    padding-right: 20px;
 }
 
 header nav a {
-    color: #ffffff;
+    color: #b0c4de;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -54,6 +57,23 @@ header nav a:hover {
     max-width: 60%;
 }
 
+.text-section h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text-section h1 span {
+    color: #b0c4de;
+}
+
+.text-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #dcdcdc;
+}
+
+/* Profile Section */
 .profile-section {
     flex: 1;
     text-align: center;
@@ -63,11 +83,45 @@ header nav a:hover {
     width: 100%;
     max-width: 180px;
     border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .profile-section .info {
     margin-top: 10px;
     font-size: 14px;
+    color: #e0e0e0;
+    text-align: left;
+}
+
+.profile-section .info p {
+    margin: 5px 0;
+}
+
+.profile-section .info p i {
+    margin-right: 5px;
+}
+
+/* News Section */
+.news-section {
+    margin-top: 50px;
+}
+
+.news-section h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.news-section .news-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #dcdcdc;
+}
+
+.news-section .news-item strong {
+    font-weight: 700;
 }
 
 /* Footer Icons */
@@ -79,10 +133,10 @@ header nav a:hover {
 .footer-icons a {
     color: #ffffff;
     font-size: 40px;
-    margin: 10px;
+    margin: 15px;
     text-decoration: none;
 }
 
 .footer-icons a:hover {
-    color: #b509ac;
+    color: #b0c4de;
 }
