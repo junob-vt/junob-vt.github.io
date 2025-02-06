@@ -80,7 +80,7 @@ header nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 20px;
     position: relative;
 }
 
@@ -92,7 +92,7 @@ header nav a:hover {
 }
 
 .profile-section .info {
-    margin-top: 15px;
+    margin-top: 30px;
     font-size: 15px;
     color: #e0e0e0;
     text-align: center;
@@ -118,16 +118,20 @@ header nav a:hover {
 
     .profile-section {
         order: -1;
-        margin-top: 15px;
+        margin-top: 5px;
     }
 
     .profile-section .info {
         text-align: center;
         padding-left: 0;
+        margin-top: 10px;
     }
     
     .news-section {
         margin-top: 15px;
+    }
+    .content {
+        margin-top: 5px;
     }
 }
 
