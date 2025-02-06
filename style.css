@@ -52,14 +52,15 @@ header nav a:hover {
 
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-start;
     margin-top: 20px;
+    gap: 40px;
 }
 
 .text-section {
     flex: 2;
-    max-width: 75%;
+    max-width: 70%;
 }
 
 .text-section h1 {
@@ -74,12 +75,11 @@ header nav a:hover {
     color: #dcdcdc;
 }
 
-/* Align profile picture with title text and ensure left-aligned info */
 .profile-section {
     flex: 1;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     margin-top: -5px;
     position: relative;
 }
@@ -95,7 +95,7 @@ header nav a:hover {
     margin-top: 10px;
     font-size: 16px;
     color: #e0e0e0;
-    text-align: left;
+    text-align: center;
     width: 100%;
 }
 
@@ -103,13 +103,13 @@ header nav a:hover {
     margin: 5px 0;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .profile-section .info p i {
     margin-right: 8px;
 }
 
-/* Ensure Profile Section Moves Under h1 on Mobile */
 @media (max-width: 768px) {
     .content {
         flex-direction: column;
@@ -118,7 +118,7 @@ header nav a:hover {
     }
 
     .profile-section {
-        align-items: center;
+        order: -1;
         width: 100%;
         margin-top: 20px;
     }
@@ -156,7 +156,6 @@ header nav a:hover {
     font-weight: 700;
 }
 
-/* Center Footer Icons and Footer Text */
 .footer-icons {
     display: flex;
     justify-content: center;
