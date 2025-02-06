@@ -132,7 +132,10 @@ header nav a:hover {
     }
     .content {
         margin-top: 5px;
-        max-width: 100%
+        max-width: 100%;
+    }
+    .text-section{
+        max-width: 100%;
     }
 }
 
