@@ -11,7 +11,7 @@ body {
 }
 
 a {
-    color: #a2c8c7;
+    color: #a9fcfa;
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ header nav {
 }
 
 header nav a {
-    color: #c8a2c8;
+    color: #ebbaff;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -181,7 +181,7 @@ header nav a:hover {
 }
 
 .footer-icons a:hover {
-    color: #cfb0de;
+    color: #ebbaff;
 }
 
 footer {
