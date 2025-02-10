@@ -11,12 +11,17 @@ body {
 }
 
 a {
-    color: #d49cff;
+    color: #a2c8c7;
     text-decoration: none;
 }
 
 a:visited {
     color: #c8a2c8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .container {
@@ -40,7 +45,7 @@ header nav {
 }
 
 header nav a {
-    color: #d49cff;
+    color: #c8a2c8;
     text-decoration: none;
     font-size: 18px;
     font-weight: bold;
@@ -176,7 +181,7 @@ header nav a:hover {
 }
 
 .footer-icons a:hover {
-    color: #b0c4de;
+    color: #cfb0de;
 }
 
 footer {
